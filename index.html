@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7faff">
+  <meta name="description" content="Personal website Tito Prasetyo — marketing, admissions, komunikasi, dan pendekatan berbasis data di BINUS UNIVERSITY.">
+  <meta property="og:title" content="Tito Prasetyo — Marketing & Admissions">
+  <meta property="og:description" content="Membangun komunikasi yang relevan, pengalaman yang bermakna, dan proses pemasaran yang lebih baik.">
+  <meta property="og:type" content="website">
+  <title>Tito Prasetyo — Marketing & Admissions</title>
+  <style>
+    :root{--navy:#102b57;--blue:#1769e0;--blue2:#4d8df5;--pale:#eaf2ff;--ink:#1b2b43;--muted:#64748b;--line:#e1e9f5;--white:#fff;--bg:#f7faff;--radius:24px;--shadow:0 18px 60px rgba(24,67,130,.09)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:92px}body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+    .nav{position:sticky;top:0;z-index:10;background:rgba(247,250,255,.88);backdrop-filter:blur(16px);border-bottom:1px solid rgba(225,233,245,.8)}.nav-inner{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-weight:800;letter-spacing:-.04em;color:var(--navy);font-size:1.1rem}.brand span{color:var(--blue)}.navlinks{display:flex;gap:26px;align-items:center;font-size:.92rem;color:#52627b}.navlinks a:hover{color:var(--blue)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:999px;padding:12px 19px;font-weight:700;font-size:.92rem;transition:.2s ease}.nav-cta,.btn-primary{background:var(--blue);color:white;box-shadow:0 8px 20px rgba(23,105,224,.18)}.nav-cta:hover,.btn-primary:hover{background:#0d56c4;transform:translateY(-2px)}.btn-secondary{border:1px solid #d5e2f5;background:white;color:var(--navy)}.btn-secondary:hover{border-color:var(--blue);transform:translateY(-2px)}
+    .hero{padding:88px 0 78px;overflow:hidden;position:relative}.hero:before{content:"";position:absolute;width:560px;height:560px;border-radius:50%;background:radial-gradient(circle,rgba(77,141,245,.14),rgba(77,141,245,0) 68%);right:-160px;top:-210px;pointer-events:none}.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;align-items:center;gap:64px;position:relative}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--blue);background:#eaf2ff;border:1px solid #d8e7ff;border-radius:999px;padding:7px 12px;font-size:.8rem;font-weight:750;letter-spacing:.04em;text-transform:uppercase}.dot{height:7px;width:7px;background:#2e82f6;border-radius:50%;box-shadow:0 0 0 4px rgba(46,130,246,.12)}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(3rem,6.5vw,5.25rem);line-height:1.02;letter-spacing:-.065em;color:var(--navy);margin:24px 0}.hero h1 em{font-style:normal;color:var(--blue)}.lead{font-size:1.12rem;line-height:1.85;color:#5a6b84;max-width:620px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.micro{font-size:.85rem;color:#8190a5;margin-top:22px}.profile-card{background:white;border:1px solid var(--line);border-radius:32px;padding:26px;box-shadow:var(--shadow);position:relative}.profile-art{height:300px;border-radius:24px;background:linear-gradient(145deg,#dceaff,#f2f7ff 55%,#c8ddff);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}.profile-art:before,.profile-art:after{content:"";position:absolute;border:1px solid rgba(23,105,224,.18);border-radius:50%;width:250px;height:250px}.profile-art:after{width:340px;height:340px}.monogram{width:150px;height:150px;border-radius:42px;background:linear-gradient(145deg,#fff,#eaf2ff);box-shadow:0 24px 45px rgba(16,43,87,.13);display:grid;place-items:center;font-size:3.5rem;font-weight:850;letter-spacing:-.08em;color:var(--blue);z-index:1;transform:rotate(-5deg)}.float-tag{position:absolute;z-index:2;background:rgba(255,255,255,.92);border:1px solid white;border-radius:14px;padding:10px 13px;box-shadow:0 8px 24px rgba(16,43,87,.09);font-size:.8rem;font-weight:750;color:var(--navy)}.tag-one{top:28px;left:18px}.tag-two{bottom:25px;right:16px}.profile-info{padding:22px 4px 2px}.profile-info h3{font-size:1.18rem;margin-bottom:4px;color:var(--navy)}.profile-info p{margin-bottom:0;color:var(--muted);font-size:.92rem}.profile-meta{display:flex;align-items:center;gap:8px;margin-top:18px;color:#4f6481;font-size:.84rem}.profile-meta svg{color:var(--blue)}
+    section{padding:78px 0}.section-head{max-width:690px;margin-bottom:34px}.kicker{font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);margin-bottom:12px}.section-head h2{font-size:clamp(2rem,4vw,3.1rem);line-height:1.13;letter-spacing:-.05em;color:var(--navy);margin-bottom:16px}.section-head p{color:var(--muted);font-size:1.03rem;line-height:1.85}.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:52px;align-items:start}.about-note{background:var(--navy);color:white;border-radius:var(--radius);padding:30px;min-height:250px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:var(--shadow)}.about-note .quote{font-size:1.4rem;line-height:1.5;letter-spacing:-.025em;font-weight:650}.about-note small{color:#b9d0f6}.about-copy p{color:#5e6d82;font-size:1.02rem;line-height:1.9}.about-copy strong{color:var(--navy)}.pill-row{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}.pill{border:1px solid #dce7f7;background:white;border-radius:999px;padding:8px 12px;font-size:.83rem;color:#48617f}
+    .focus{background:white;border-top:1px solid #edf2f9;border-bottom:1px solid #edf2f9}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:22px;padding:26px;background:#fff;transition:transform .2s,border-color .2s,box-shadow .2s}.card:hover{transform:translateY(-5px);border-color:#bfd5f8;box-shadow:var(--shadow)}.iconbox{width:48px;height:48px;display:grid;place-items:center;border-radius:15px;background:var(--pale);color:var(--blue);margin-bottom:22px}.iconbox svg{width:23px;height:23px}.card h3{color:var(--navy);font-size:1.12rem;margin-bottom:10px;letter-spacing:-.02em}.card p{font-size:.93rem;line-height:1.8;color:var(--muted);margin-bottom:0}
+    .approach-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.step{padding:8px 18px 8px 0}.step-no{font-size:.8rem;font-weight:800;color:var(--blue);letter-spacing:.1em;margin-bottom:18px}.step h3{color:var(--navy);font-size:1.15rem;margin-bottom:10px}.step p{font-size:.94rem;color:var(--muted);line-height:1.8}
+    .statement{padding:58px 0}.statement-inner{border-radius:30px;background:linear-gradient(120deg,#12366b,#1769e0);padding:48px;display:flex;justify-content:space-between;align-items:center;gap:36px;color:white;position:relative;overflow:hidden}.statement-inner:after{content:"";position:absolute;width:320px;height:320px;border:1px solid rgba(255,255,255,.18);border-radius:50%;right:15%;top:-190px;box-shadow:0 0 0 38px rgba(255,255,255,.04),0 0 0 78px rgba(255,255,255,.035)}.statement h2{font-size:clamp(1.8rem,3.5vw,2.6rem);line-height:1.2;letter-spacing:-.045em;max-width:640px;margin:0;position:relative;z-index:1}.statement p{color:#d9e7ff;margin:12px 0 0;position:relative;z-index:1}.statement .btn{background:white;color:var(--navy);white-space:nowrap;position:relative;z-index:1}
+    .contact{padding-top:45px}.contact-box{background:white;border:1px solid var(--line);border-radius:28px;padding:38px;display:flex;align-items:center;justify-content:space-between;gap:24px}.contact-box h2{color:var(--navy);font-size:2rem;letter-spacing:-.04em;margin-bottom:8px}.contact-box p{color:var(--muted);margin-bottom:0}.contact-actions{display:flex;flex-wrap:wrap;gap:10px}
+    footer{padding:34px 0 40px;color:#8290a4;font-size:.85rem}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px;border-top:1px solid var(--line);padding-top:24px}.footer-inner strong{color:var(--navy)}.backtop{color:var(--blue);font-weight:700}
+    .reveal{opacity:0;transform:translateY(16px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:none}.menu-toggle{display:none;border:1px solid var(--line);background:white;border-radius:12px;padding:9px;color:var(--navy)}
+    @media(max-width:850px){.hero{padding:58px 0}.hero-grid{grid-template-columns:1fr;gap:35px}.profile-card{max-width:480px}.about-grid{grid-template-columns:1fr;gap:25px}.cards{grid-template-columns:1fr 1fr}.approach-grid{grid-template-columns:1fr;gap:6px}.step{border-bottom:1px solid var(--line);padding:20px 0}.statement-inner{padding:34px;align-items:flex-start;flex-direction:column}.contact-box{align-items:flex-start;flex-direction:column}.navlinks{gap:15px}}
+    @media(max-width:600px){.wrap{width:min(100% - 30px,1120px)}.nav-inner{height:66px}.menu-toggle{display:inline-flex}.navlinks{display:none;position:absolute;top:66px;left:0;right:0;background:white;padding:18px 22px 22px;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:16px}.navlinks.open{display:flex}.nav-cta{display:none}.hero{padding:48px 0}.hero h1{font-size:3.2rem}.lead{font-size:1rem}.profile-art{height:250px}.monogram{width:125px;height:125px;font-size:3rem}.cards{grid-template-columns:1fr}.section-head h2{font-size:2.25rem}section{padding:60px 0}.statement{padding:28px 0}.statement-inner{padding:28px;border-radius:22px}.contact-box{padding:26px}.contact-box h2{font-size:1.7rem}.footer-inner{align-items:flex-start;flex-direction:column}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#home" aria-label="Tito Prasetyo, halaman utama">tito<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi" aria-expanded="false">Menu</button>
+      <nav class="navlinks" id="navLinks" aria-label="Navigasi utama">
+        <a href="#about">Tentang</a><a href="#focus">Fokus</a><a href="#approach">Pendekatan</a><a href="#contact">Kontak</a>
+      </nav>
+      <a class="nav-cta" href="#contact">Terhubung <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div class="reveal">
+          <div class="eyebrow"><span class="dot"></span> Marketing · Admissions · Communication</div>
+          <h1>Halo, saya<br><em>Tito Prasetyo.</em></h1>
+          <p class="lead">Saya bekerja di bidang marketing dan admissions di BINUS UNIVERSITY. Saya tertarik pada bagaimana komunikasi yang tepat, pemahaman terhadap kebutuhan audiens, dan penggunaan data dapat menciptakan pengalaman yang lebih baik.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#about">Kenali saya <span aria-hidden="true">↓</span></a>
+            <a class="btn btn-secondary" href="https://github.com/tprasetyo-hash" target="_blank" rel="noopener noreferrer">Lihat GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="micro">Berangkat dari rasa ingin tahu, bertumbuh melalui proses, dan berfokus pada dampak.</p>
+        </div>
+        <aside class="profile-card reveal" aria-label="Ringkasan profil Tito">
+          <div class="profile-art">
+            <span class="float-tag tag-one">People first</span>
+            <div class="monogram" aria-label="Inisial TP">TP</div>
+            <span class="float-tag tag-two">Think · Connect · Improve</span>
+          </div>
+          <div class="profile-info">
+            <h3>Tito Prasetyo</h3>
+            <p>Marketing & Admissions · BINUS UNIVERSITY</p>
+            <div class="profile-meta"><span class="dot"></span><span>Berfokus pada komunikasi dan pengalaman calon mahasiswa</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="kicker">Tentang saya</div>
+          <h2>Marketing bukan hanya tentang menjangkau orang. Ini tentang memahami mereka.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-note reveal">
+            <div class="quote">“Komunikasi yang baik dimulai dengan memahami apa yang benar-benar dibutuhkan seseorang.”</div>
+            <small>Prinsip yang saya bawa dalam bekerja</small>
+          </div>
+          <div class="about-copy reveal">
+            <p>Dalam peran saya di marketing dan admissions BINUS UNIVERSITY, saya terlibat dalam proses yang mempertemukan informasi, kebutuhan calon mahasiswa dan orang tua, serta tujuan institusi. Bagi saya, setiap interaksi adalah kesempatan untuk membangun kepercayaan melalui komunikasi yang jelas, relevan, dan manusiawi.</p>
+            <p>Saya juga menyukai proses mencari cara kerja yang lebih efektif—mulai dari menyusun materi komunikasi, memahami kendala audiens, sampai menggunakan data untuk membantu menentukan tindak lanjut dan prioritas.</p>
+            <p>Hal yang ingin terus saya kembangkan adalah kemampuan menghubungkan <strong>strategi, kreativitas, dan analisis</strong> agar ide tidak berhenti sebagai rencana, tetapi dapat diterapkan dan dievaluasi.</p>
+            <div class="pill-row"><span class="pill">Audience understanding</span><span class="pill">Communication</span><span class="pill">Data-informed decisions</span><span class="pill">Continuous improvement</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="focus" id="focus">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="kicker">Area fokus</div>
+          <h2>Hal yang saya kerjakan dan terus pelajari.</h2>
+          <p>Saya percaya hasil yang baik muncul ketika pemahaman terhadap manusia, strategi yang jelas, dan proses yang terukur berjalan bersama.</p>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="iconbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21z"/><path d="M4 5.5v13A2.5 2.5 0 0 1 6.5 16H20M8 7h7M8 10h5"/></svg></div>
+            <h3>Marketing & Admissions</h3>
+            <p>Menyampaikan nilai dan informasi secara relevan, membantu audiens memahami pilihan, serta membangun pengalaman yang positif di sepanjang proses admissions.</p>
+          </article>
+          <article class="card reveal">
+            <div class="iconbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8A8.5 8.5 0 0 1 8.7 3.9a8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8z"/></svg></div>
+            <h3>Strategic Communication</h3>
+            <p>Mengembangkan pesan yang jelas, hangat, dan sesuai konteks—dengan memperhatikan kebutuhan audiens, kanal komunikasi, serta tujuan yang ingin dicapai.</p>
+          </article>
+          <article class="card reveal">
+            <div class="iconbox"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-4 4"/><path d="M15 9h4v4"/></svg></div>
+            <h3>Data & Process Improvement</h3>
+            <p>Menggunakan data untuk melihat pola, memahami hambatan, menyusun prioritas tindak lanjut, dan mengevaluasi peluang perbaikan proses kerja.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="approach">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="kicker">Cara saya bekerja</div>
+          <h2>Tetap manusiawi. Berpikir terstruktur. Terus berkembang.</h2>
+        </div>
+        <div class="approach-grid">
+          <article class="step reveal"><div class="step-no">01 / UNDERSTAND</div><h3>Mulai dari kebutuhan</h3><p>Mendengarkan, memahami konteks, dan mengenali pertanyaan atau hambatan sebelum menentukan pesan maupun tindakan.</p></article>
+          <article class="step reveal"><div class="step-no">02 / CONNECT</div><h3>Hubungkan ide dengan aksi</h3><p>Menerjemahkan tujuan menjadi komunikasi dan langkah yang praktis, relevan, serta mudah dipahami oleh orang yang menerimanya.</p></article>
+          <article class="step reveal"><div class="step-no">03 / IMPROVE</div><h3>Evaluasi dan perbaiki</h3><p>Melihat hasil, mempelajari apa yang bisa ditingkatkan, dan menggunakan temuan tersebut sebagai dasar untuk langkah berikutnya.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="wrap statement-inner reveal">
+        <div><h2>Ide yang baik menjadi lebih berarti ketika memberi manfaat nyata.</h2><p>Saya terbuka untuk bertukar ide, belajar, dan membangun koneksi profesional.</p></div>
+        <a class="btn" href="https://github.com/tprasetyo-hash" target="_blank" rel="noopener noreferrer">Temukan saya di GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div class="contact-box reveal">
+          <div><div class="kicker">Mari terhubung</div><h2>Senang bisa berkenalan.</h2><p>Untuk melihat aktivitas dan proyek digital saya, kunjungi profil GitHub.</p></div>
+          <div class="contact-actions"><a class="btn btn-primary" href="https://github.com/tprasetyo-hash" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a class="btn btn-secondary" href="#home">Kembali ke atas ↑</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner"><div>© <span id="year"></span> <strong>Tito Prasetyo.</strong> Dibuat dengan tujuan dan rasa ingin tahu.</div><a class="backtop" href="#home">Kembali ke atas ↑</a></div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.textContent = open ? 'Tutup' : 'Menu';
+    });
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      nav.classList.remove('open'); toggle.setAttribute('aria-expanded','false'); toggle.textContent='Menu';
+    }));
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => { if(entry.isIntersecting){ entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
+    }, {threshold:.12});
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
